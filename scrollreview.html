@@ -1,0 +1,309 @@
+
+
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
+<link href='https://fonts.googleapis.com/css?family=Sarina' rel='stylesheet'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Mali' rel='stylesheet'>
+
+<style>
+
+.container-oorla {
+  display: flex;
+  gap: 20px;
+  width: 90%;
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+ 
+  justify-content: center;
+  align-items: center;
+  min-height: 65vh;
+  max-width: 1400px;
+ 
+  padding: 10px;
+  border-radius: 10px;
+}
+.left-section {
+  flex: 1;
+  
+  mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 12.5%, rgb(0, 0, 0) 94.5%, rgba(0, 0, 0, 0) 100%);
+  background-color: #fff;
+
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 600px;
+}
+.autoplay {
+  width: 100%;
+  height: 100%;
+  
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  animation: scrollUp 5s linear infinite;
+}
+@keyframes scrollUp {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: -100%;
+  }
+}
+.slide {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+  box-sizing: border-box;
+}
+.slide img {
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: contain;
+}
+.text {
+  width: 50%;
+  padding: 20px;
+  background-color: #fbfbfb;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #333;
+  color:  ;
+  ;
+}
+
+.right-section {
+  flex: 1;
+  width: 50%;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.review-card {
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+.review-card .stars {
+  color: #f7c948;
+}
+.review-card p {
+  margin: 10px 0;
+}
+.review-card .name {
+  font-weight: bold;
+}
+.checked {
+  color: #ffda3f;
+  margin-bottom: 20px;
+}
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-radius: 10px;
+}
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.name-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.name {
+  font-size: 18px;
+  color: #333;
+  font-weight: 500;
+}
+.text-container{
+  text-align: center;
+}
+
+.review-texts {
+  margin-bottom: 20px;
+}
+.verified-badge img {
+  width: 20px;
+  height: 20px;
+}.sarina {
+  font-family: 'Sarina';
+  font-size: 26px;
+  text-align: center;
+  color: #C52F77;
+}
+.krona-one-regular {
+font-family: "Krona One", serif !important;
+font-weight: 400;
+font-size: 58px;
+color: #000000;
+font-style: normal;
+text-align: center;
+}
+</style>
+
+<div class="text-container">
+  <h1 class="sarina">Loved by <br>
+      <span class="krona-one-regular">Millions</span>
+  </h1> 
+  <p style="font-family: 'Mali';margin-bottom: 20px;">Oorla’s 5-star delicacies offer authentic taste that keeps customers coming back</p>
+   
+</div>
+<div class="container-oorla">
+  
+<div class="right-section">
+  <img src="" alt="">
+</div>
+<div class="left-section">
+  <div class="autoplay">
+    <div class="slide">
+      <img
+        src="https://cdn.shopify.com/s/files/1/0601/2449/6069/files/puv9duu3Yz_mid_1.jpg?v=1738731214"
+        alt="Review Image 1"
+      />
+      <div class="text">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <div class="review-texts">
+          Awesome customer service, fast delivery and, above all,
+          authentic taste! When you crave namma ooru sweets and savouries,
+          this is the best place to order!
+        </div>
+        <div class="profile-section">
+          <div class="avatar">
+              <img src="https://cdn.shopify.com/s/files/1/0601/2449/6069/files/Frame_1686556525.png?v=1738738148" alt="User Avatar">
+            </div>
+          <div class="name-container">
+            <div class="name">Suresh Gokul</div>
+            <div class="verified-badge">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0601/2449/6069/files/Subtract_1.png?v=1738732791"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="text">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <div class="review-texts">
+          Awesome customer service, fast delivery and, above all,
+          authentic taste! When you crave namma ooru sweets and savouries,
+          this is the best place to order!
+        </div>
+        <div class="profile-section">
+          <div class="avatar"><img src="https://cdn.shopify.com/s/files/1/0601/2449/6069/files/Frame_1686556525.png?v=1738738148" alt=""></div>
+          <div class="name-container">
+            <div class="name">Suresh Gokul</div>
+            <div class="verified-badge">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0601/2449/6069/files/Subtract_1.png?v=1738732791"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://cdn.shopify.com/s/files/1/0601/2449/6069/files/puv9duu3Yz_mid_1.jpg?v=1738731214"
+        alt="Review Image 1"
+      />
+    </div>
+    <div class="slide">
+      <img
+        src="https://cdn.shopify.com/s/files/1/0601/2449/6069/files/puv9duu3Yz_mid_1.jpg?v=1738731214"
+        alt="Review Image 1"
+      />
+      <div class="text">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <div class="review-texts">
+          Awesome customer service, fast delivery and, above all,
+          authentic taste! When you crave namma ooru sweets and savouries,
+          this is the best place to order!
+        </div>
+        <div class="profile-section">
+          <div class="avatar"><img src="https://cdn.shopify.com/s/files/1/0601/2449/6069/files/Frame_1686556525.png?v=1738738148" alt=""></div>
+          <div class="name-container">
+            <div class="name">Suresh Gokul</div>
+            <div class="verified-badge">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0601/2449/6069/files/Subtract_1.png?v=1738732791"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="text">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <div class="review-texts">
+          Awesome customer service, fast delivery and, above all,
+          authentic taste! When you crave namma ooru sweets and savouries,
+          this is the best place to order!
+        </div>
+        <div class="profile-section">
+          <div class="avatar"><img src="https://cdn.shopify.com/s/files/1/0601/2449/6069/files/Frame_1686556525.png?v=1738738148" alt=""></div>
+          <div class="name-container">
+            <div class="name">Suresh Gokul</div>
+            <div class="verified-badge">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0601/2449/6069/files/Subtract_1.png?v=1738732791"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://cdn.shopify.com/s/files/1/0601/2449/6069/files/puv9duu3Yz_mid_1.jpg?v=1738731214"
+        alt="Review Image 1"
+      />
+    </div>
+  </div>
+</div>
+</div>
+
